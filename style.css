@@ -2,14 +2,27 @@ body {
   margin: 0;
 }
 
-.header-intro-background {
+.header-background,
+.intro-background {
   background-color: #1F2937;
+  display: flex;
 }
+
+.content {
+  flex-shrink: 0;
+}
+
+.margin {
+  flex: 1;
+}
+
 
 .header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: baseline;
+  width: 1000px;
+  margin: 16px 16px 100px;
 }
 
 .logo {
@@ -42,15 +55,9 @@ a {
 
 .intro {
   display: flex;
-  justify-content: space-around;
-}
-
-.intro-title {
-  color: #F9FAF8;
-  font-size: 48px;
-  font-weight: 900;
-  flex-wrap: wrap;
-  border: 2px solid red;
+  width: 1000px;
+  margin: 16px 16px 100px;
+  gap: 52px;
 }
 
 .intro-left {
@@ -58,8 +65,16 @@ a {
 }
 
 .intro-right {
-  flex: 1;
+  flex: 1.2;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.intro-title {
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: 900;
+  flex-wrap: wrap;
 }
