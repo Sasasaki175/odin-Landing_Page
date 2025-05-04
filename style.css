@@ -14,6 +14,7 @@ body {
 
 .content {
   flex-shrink: 0;
+  width: 1000px;
 }
 
 .space {
@@ -25,7 +26,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  width: 1000px;
   margin: 16px 16px 100px;
 }
 
@@ -59,7 +59,6 @@ a {
 
 .intro {
   display: flex;
-  width: 1000px;
   margin: 16px 16px 100px;
   gap: 52px;
 }
@@ -109,7 +108,6 @@ a {
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
-  width: 1000px;
 }
 
 .info-header {
@@ -145,4 +143,31 @@ a {
   font-size: 18px;
   color: #1F2937;
   text-align: center;
+}
+
+.quote-background {
+  display: flex;
+  background-color: #E5E7EB;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-section {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  margin: 120px 0 100px 0;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1F2937;
+  font-style: italic;
+  align-self: flex-start;
+}
+
+.thor {
+  font-size: 24px;
+  font-weight: 900;
+  align-self: flex-end;
 }
