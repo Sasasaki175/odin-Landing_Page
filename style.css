@@ -21,7 +21,6 @@ body {
   flex: 1;
 }
 
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -96,6 +95,11 @@ a {
   border-radius: 8px;
   width: 100px;
   text-align: center;
+}
+
+.intro-image {
+  width: 300px;
+  height: auto;
 }
 
 .info-background {
