@@ -19,6 +19,7 @@ body {
 
 .space {
   flex: 1;
+  min-width: 0;
 }
 
 .header {
@@ -152,22 +153,21 @@ a {
 .quote-background {
   display: flex;
   background-color: #E5E7EB;
-  justify-content: center;
-  align-items: center;
 }
 
 .quote-section {
   display: flex;
   flex-direction: column;
-  width: 800px;
-  margin: 120px 0 100px 0;
+  justify-content: center;
+  padding: 120px 0 100px 0;
 }
 
 .quote {
   font-size: 36px;
   color: #1F2937;
   font-style: italic;
-  align-self: flex-start;
+  align-self: center;
+  width: 800px;
 }
 
 .thor {
