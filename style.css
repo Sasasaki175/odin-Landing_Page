@@ -26,7 +26,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  margin: 16px 16px 100px;
+  margin: 16px 0 100px;
 }
 
 .logo {
@@ -59,7 +59,7 @@ a {
 
 .intro {
   display: flex;
-  margin: 16px 16px 100px;
+  margin: 16px 0 100px;
   gap: 52px;
 }
 
@@ -173,5 +173,47 @@ a {
 .thor {
   font-size: 24px;
   font-weight: 900;
+  width: 800px;
+  text-align: end;
+  align-self: center;
+}
+
+.sign_up-background {
+  display: flex;
+}
+
+.sign_up-section {
+  background-color: #3882F6;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  margin: 100px 0;
+  padding: 50px 120px;
+  box-sizing: border-box;
+}
+
+.sign_up-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.sign_up-big_text {
+  font-size: 20px;
+  font-weight: 900;
+  color:#F9FAF8;
+}
+
+.sign_up-sign_up {
+  font-size: 16px;
+  font-weight: 500;
+  color:#E5E7EB;
+  background-color: #3882F6;
+  border: 3px solid #E5E7EB;
+  border-radius: 10px;
+  padding: 0 35px;
+  height: 35px;
   align-self: flex-end;
 }
