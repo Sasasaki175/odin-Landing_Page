@@ -217,3 +217,14 @@ a {
   height: 35px;
   align-self: flex-end;
 }
+
+.footer-background {
+  background-color: #1F2937;
+  display: flex;
+}
+
+.footer {
+  color: #E5E7EB;
+  text-align: center;
+  padding: 40px 0;
+}
